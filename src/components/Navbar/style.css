@@ -1,0 +1,51 @@
+.main-header.light {
+    background-color: #fff;
+}
+.main-header.dark {
+    background-color: #0f0f0f;
+}
+.main-header__wrapper {
+    height: 56px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1392px;
+    margin: 0 auto;
+}
+.main-header__logomenu {
+    width: 169px;
+    display: flex;
+    align-items: center;
+}
+.main-header__logomenu .hamburger {
+    width: 24px;
+    height: 24px;
+    padding: 8px;
+    transition: .15s ease-in-out;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.main-header__logomenu .hamburger:hover {
+    background-color: rgba(0, 0, 0, .08);
+}
+.main-header__logomenu .logo {
+    width: 129px;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main-header__logomenu .logo img {
+    width: 90px;
+}
+.main-header__search {
+    width: 728px;
+}
+.main-header__profile {
+    width: 225px;
+}
+.main-header__logomenu,
+.main-header__search,
+.main-header__profile {
+    height: inherit;
+}
